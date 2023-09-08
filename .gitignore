@@ -1,2 +1,7 @@
 inst/bin/x13ashtml*
 inst/lib/*
+
+src/*.so
+src/*.d
+src/**/*.o
+src/**/*.a
