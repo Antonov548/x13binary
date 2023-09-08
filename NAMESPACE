@@ -3,4 +3,8 @@
 export(checkX13binary)
 export(supportedPlatform)
 export(x13path)
+export(run_x13)
 import(utils)
+
+useDynLib("x13binary", .registration=TRUE)
+importFrom(Rcpp, evalCpp)
